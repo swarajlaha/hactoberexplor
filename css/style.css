@@ -239,15 +239,15 @@ li a:hover:not(.active) {
     box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
     background-color: #e6e6e6;
     border-radius: 3px;
-    padding: 6rem;
+    padding: 2rem;
     padding-left: 9rem;
     font-size: 1.6rem;
     transform: skewX(-12deg);
 }
 
 .story__shape {
-    width: 15rem;
-    height: 15rem;
+    width: 12rem;
+    height: 12rem;
     float: left;
     background-color: transparent;
     -webkit-shape-outside: circle(50% at 50% 50%);
