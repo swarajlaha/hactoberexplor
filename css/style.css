@@ -237,7 +237,7 @@ li a:hover:not(.active) {
     width: 75%;
     margin: 0 auto;
     box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: #e6e6e6;
     border-radius: 3px;
     padding: 6rem;
     padding-left: 9rem;
