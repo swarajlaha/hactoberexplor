@@ -81,3 +81,145 @@ li a:hover:not(.active) {
     left: 10%;
     right: 5%;
 }
+
+
+/* 
+  HEADER FOR ALL SECTION HEADERS
+*/
+
+.section-header {
+    color: #0a2929;
+    display: block;
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: 0.5rem;
+}
+
+
+/* 
+  GENERAL STYLE FOR ROWS
+*/
+
+.row {
+    max-width: 114rem;
+    margin: 0 auto;
+}
+
+
+/*
+  GENERAL STYLE FOR CARDS
+*/
+
+.card {
+    perspective: 100rem;
+    -moz-perspective: 150rem;
+    position: relative;
+    height: 30rem;
+}
+
+
+/*
+  STYLE FOR CARD ROTATION
+*/
+
+.card__side {
+    background-color: #d6f5f5;
+    height: 30rem;
+    transition: all, .8s ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    backface-visibility: hidden;
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+}
+
+
+/* 
+  ROTATION OF CARD ON Y DIRECTION
+*/
+
+.card__side--back {
+    transform: rotateY(180deg);
+}
+
+.card__back-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card:hover .card__side--front {
+    transform: rotateY(-180deg);
+}
+
+.card:hover .card__side--back {
+    transform: rotateY(0deg);
+}
+
+
+/* 
+  STYLE FOR FRONT SIDE CARD 
+*/
+
+.card__side--front {
+    background-color: #fff;
+}
+
+
+/* 
+  STYLE FOR CARD PICTURE
+*/
+
+.card__picture {
+    background-size: cover;
+    height: 100%;
+    background-blend-mode: screen;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.card__picture--1 {
+    background-image: url(../img/places/place1.jpg);
+}
+
+
+/* 
+  STYLE FOR FRONT SIDE CARD HEADING
+*/
+
+.card__heading {
+    font-size: 2.8rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #f2f2f2;
+    position: absolute;
+    top: 65%;
+    left: 12rem;
+    width: 75%;
+}
+
+.card__heading-span {
+    padding: 1rem 1.5rem;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+}
+
+
+/* 
+  STYLE FOR COLUMNS 1 OF 3
+*/
+
+.row .col-1-of-3 {
+    width: calc((100% - 2 * 6rem) / 3);
+}
