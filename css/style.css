@@ -45,7 +45,7 @@ li a:hover:not(.active) {
 
 .header {
     height: 85vh;
-    background-image: linear-gradient(to right bottom, rgba(15, 61, 61, 0.8), rgba(45, 185, 185, 0.8)), url(../img/bgimg.jpg);
+    background-image: linear-gradient(to right bottom, rgba(15, 61, 61, 0.4), rgba(45, 185, 185, 0.8)), url(../img/bgimg.jpg);
     background-size: cover;
     background-position: top;
     position: relative;
@@ -57,7 +57,7 @@ li a:hover:not(.active) {
 */
 
 .heading-primary {
-    color: #fff;
+    color: #1a1a1a;
     display: block;
     text-transform: uppercase;
     font-size: 5rem;
@@ -75,10 +75,10 @@ li a:hover:not(.active) {
 */
 
 .heading-sub {
-    color: #fff;
+    color: #1a1a1a;
     display: block;
-    font-size: 1.5rem;
-    font-weight: 100;
+    font-size: 2rem;
+    font-weight: 2500;
     letter-spacing: 0.1rem;
     text-align: center;
     position: absolute;
@@ -320,4 +320,14 @@ li a:hover:not(.active) {
     background-color: #111;
     color: azure;
     text-align: center;
+}
+
+
+/*
+  TO ADJUST TOP SPACE
+*/
+
+.top-gap {
+    padding-top: 20px;
+    color: #333333;
 }
