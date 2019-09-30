@@ -189,10 +189,6 @@ li a:hover:not(.active) {
     border-top-right-radius: 3px;
 }
 
-.card__picture--1 {
-    background-image: url(../img/places/place1.jpg);
-}
-
 
 /* 
   STYLE FOR FRONT SIDE CARD HEADING
