@@ -104,10 +104,10 @@ li a:hover:not(.active) {
 
 
 /* 
-  GENERAL STYLE FOR ROWS
+  GENERAL STYLE FOR containerS
 */
 
-.row {
+.container {
     max-width: 114rem;
     margin: 0 auto;
 }
@@ -206,9 +206,8 @@ li a:hover:not(.active) {
     text-transform: uppercase;
     color: #f2f2f2;
     position: absolute;
-    top: 65%;
-    left: 12rem;
-    width: 75%;
+    bottom: 0;
+    margin-bottom: 10px;
 }
 
 .card__heading-span {
@@ -222,11 +221,13 @@ li a:hover:not(.active) {
   STYLE FOR COLUMNS 1 OF 3
 */
 
-.row .col-1-of-3 {
-    width: calc((100% - 2 * 6rem) / 3);
+.container .col-1-of-3 {
+    /*width: calc((100% - 2 * 6rem) / 3);*/
+    width: 33%;
+    display: inline-block;
 }
 
-.row .col-2-of-3 {
+.container .col-2-of-3 {
     width: calc(2 * ((100% - 2 * 6rem) / 3) + 6rem);
 }
 
