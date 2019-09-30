@@ -2,6 +2,11 @@
   NAVIGATION BAR
 */
 
+.navigation {
+    position: sticky;
+    position: -webkit-sticky;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
