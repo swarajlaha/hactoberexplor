@@ -183,7 +183,8 @@ li a:hover:not(.active) {
 
 .card__picture {
     background-size: cover;
-    height: 100%;
+    max-width: 100%;
+    height: auto;
     background-blend-mode: screen;
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
