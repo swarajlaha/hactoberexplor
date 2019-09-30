@@ -327,3 +327,14 @@ li a:hover:not(.active) {
     color: azure;
     text-align: center;
 }
+
+
+/*
+  Countdown
+*/
+
+#demo {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 10px;
+}
