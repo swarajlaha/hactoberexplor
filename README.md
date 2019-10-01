@@ -18,14 +18,14 @@ repository and clone your forked repository.
 
 In your forked repository, edit "index.html" and add your place's picture, place's name and a short dscription about it. Also add something interesting about yourself and a picture of yours. Please read the simple instructions (comments) carefully, while editing the html file.
 
-1. In _index.html_, start copying from the line with _<div class="col-1-of-3">_ till the end of the div (also        marked in the file), in order to add content in it.
+1. In _index.html_, start copying from the line with _div class="col-1-of-3"_ till the end of the div (also        marked in the file), in order to add content in it.
 2. Go to _img/places/_ folder and add your Place Pic in the naming format, _place[no.].jpg_, like, _place1.jpg_,    _place2.jpg_ and so on.
-3. Add the Name of your Place, in place of _Place Demo_, inside the _<span> tag_.
-4. Add a short description about your place, in place of the random text, inside the _<p> tag_.
+3. Add the Name of your Place, in place of _Place Demo_, inside the _span tag_.
+4. Add a short description about your place, in place of the random text, inside the _p tag_.
 5. For the _About Contributors_ section, add an image of yours in _img/contributors/_ folder, in the naming            format, _contributor[no.].jpg_, like _contributor1.jpg_, _contributor2.jpg_ and so on. 
-6. In the _<figcaption> tag_, mention your name.
-7. In the _<h3> tag_, give a tile about yourself.
-8. In the _<p> tag_, write something interesting about yourself, alongwith some social media links, for people to      find you.
+6. In the _figcaption tag_, mention your name.
+7. In the _h3 tag_, give a tile about yourself.
+8. In the _p tag_, write something interesting about yourself, alongwith some social media links, for people to      find you.
          **That's it!** 
 
 ### Step 3 
