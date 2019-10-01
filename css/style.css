@@ -308,6 +308,11 @@ li a:hover:not(.active) {
     margin-bottom: 1.5rem !important;
 }
 
+.story__content {
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
 
 /* 
   STYLE FOR FOOTER
