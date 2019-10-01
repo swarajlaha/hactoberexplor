@@ -305,12 +305,14 @@ li a:hover:not(.active) {
     font-size: 1.6rem;
     font-weight: 700;
     text-transform: uppercase;
+    color: black;
     margin-bottom: 1.5rem !important;
 }
 
 .story__content {
     font-size: 1.3rem;
     font-weight: 300;
+    color: black;
 }
 
 
