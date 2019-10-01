@@ -338,3 +338,12 @@ li a:hover:not(.active) {
     color: #1a1a1a;
     font-weight: 200;
 }
+
+
+.alert {
+    background-color: rgb(0, 248, 248);
+    border: 1px solid rgb(0, 248, 248);
+    display: block;
+    padding: 10px;
+}
+
