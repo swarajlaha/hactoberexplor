@@ -16,16 +16,17 @@ repository and clone your forked repository.
 
 ### Step 2
 
-In your forked repository, edit "index.html" and add your place's picture, place's name and a short dscription about it. Also add something interesting about yourself and a picture of yours. In case of any confusion, follow the steps below:
-    I.   In "index.html", start copying from the line with "<div class="col-1-of-3">" till the end of the 'div' (also        marked in the file), in order to add content in it.
-    II.  Go to "img/places/" folder and add your Place Pic in the naming format, "place[no.].jpg", like, "place1.jpg",             "place2.jpg" and so on.
-    III. Add the Name of your Place, in place of "Place Demo", inside the "<span> tag".
-    IV.  Add a short description about your place, in place of the random text, inside the "<p> tag".
-    V.   For the "About Contributors" section, add an image of yours in "img/contributors/" folder, in the naming            format, "contributor[no.].jpg", like "contributor1.jpg", "contributor2.jpg" and so on. 
-    VI.  In the "<figcaption> tag", mention your name.
-    VII. In the "<h3> tag", give a tile about yourself.
-    VIII.In the "<p> tag", write something interesting about yourself, alongwith some social media links, for people to      find you.
-         That's it!
+In your forked repository, edit "index.html" and add your place's picture, place's name and a short dscription about it. Also add something interesting about yourself and a picture of yours. Please read the simple instructions (comments) carefully, while editing the html file.
+
+1. In _index.html_, start copying from the line with _<div class="col-1-of-3">_ till the end of the div (also        marked in the file), in order to add content in it.
+2. Go to _img/places/_ folder and add your Place Pic in the naming format, _place[no.].jpg_, like, _place1.jpg_,    _place2.jpg_ and so on.
+3. Add the Name of your Place, in place of _Place Demo_, inside the _<span> tag_.
+4. Add a short description about your place, in place of the random text, inside the _<p> tag_.
+5. For the _About Contributors_ section, add an image of yours in _img/contributors/_ folder, in the naming            format, _contributor[no.].jpg_, like _contributor1.jpg_, _contributor2.jpg_ and so on. 
+6. In the _<figcaption> tag_, mention your name.
+7. In the _<h3> tag_, give a tile about yourself.
+8. In the _<p> tag_, write something interesting about yourself, alongwith some social media links, for people to      find you.
+         **That's it!** 
 
 ### Step 3 
 
@@ -34,6 +35,10 @@ Commit your changes and submit a pull request! After your pull request gets acce
 ### Step 4
 
 Please star the repo, if you like this fun little Hacktoberfest project :heart:
+
+## Credits
+
+Photo by Joshua Earle on Unsplash.
 
 ## License
 
