@@ -1,4 +1,5 @@
 # hactoberexplor
+![](https://hacktoberfest.digitalocean.com/assets/logo-hf19-header-8245176fe235ab5d942c7580778a914110fa06a23c3d55bf40e2d061809d8785.svg)
 Happy Hacktoberfest 2019! 🔥 
 
 HacktoberExplor is for people who love to travel, explore and let others know about the beautiful places which they've visited, alongwith a photo and a short description about that place. Also you can add about yourself, your interests and your social media links, etc. 
