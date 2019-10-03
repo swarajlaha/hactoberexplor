@@ -263,7 +263,7 @@ li a:hover:not(.active) {
 
 .story__img {
     height:100%;
-    transform: translateX(-2rem) scale(1.4);
+    transform: translateX(-2rem) scale(1.2);
     backface-visibility: hidden;
     transition: all .5s;
 }
