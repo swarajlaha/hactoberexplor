@@ -262,8 +262,8 @@ li a:hover:not(.active) {
 }
 
 .story__img {
-    height: 100%;
-    transform: translateX(-2rem) scale(1.2);
+    height: 128px;
+    width: 128px;
     backface-visibility: hidden;
     transition: all .5s;
 }
