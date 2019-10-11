@@ -211,9 +211,11 @@ li a:hover:not(.active) {
 }
 
 .card__heading-span {
-    padding: 1rem 1.5rem;
+    padding: 0rem 0rem;
     -webkit-box-decoration-break: clone;
     box-decoration-break: clone;
+    background-color: #404040;
+    opacity: .7;
 }
 
 
