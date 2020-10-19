@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js "></script>
+<script src="js/scripts.js"></script>
+
+<head>
+    <title>Login</title>
+    <script>
+        $(document).ready(function () {
+            $('#box').click(function () {
+                if ($(this).is(':checked')) {
+                    $('#root').attr("disabled", false);
+                } else {
+                    $('#root').attr("disabled", true);
+                }
+            });
+        });
+    </script>
+    <style>
+        h1 {
+            justify-content: center;
+        }
+
+        body {
+            margin: 0px;
+            padding: 0px;
+            background: rgb(255, 255, 255);
+            background: radial-gradient(circle, rgba(255, 255, 255, 0) 0%, rgba(4, 47, 231, 1) 100%);
+        }
+
+        form {
+            background-color: mintcream;
+            font-family: 'Baloo Bhai 2', cursive;
+            margin: auto;
+            display: flex;
+            flex-flow: column;
+            border: 2px solid blue;
+            align-items: center;
+            justify-content: center;
+            justify-items: center;
+            padding: 100px;
+        }
+
+        form input {
+            position: relative;
+            width: 100%;
+            padding: 10px;
+            background: #f5f5f5;
+            color: #333;
+            border: none;
+            margin: 8px 0;
+            font-size: 15px;
+            letter-spacing: 1px;
+            font-weight: 300;
+        }
+
+        .di {
+            display: flex;
+            flex-flow: column;
+            align-items: center;
+            justify-content: center;
+            justify-items: center;
+            padding: 100px;
+        }
+
+        #button {
+            /* background-color: rgb(103, 225, 255);
+            color: white;
+            padding: 14px 20px;
+            width: 100%;
+            margin: 25px 0;
+            border: none;
+            cursor: pointer;
+            */
+        }
+
+        #button:hover {
+            /* background-color: rgb(70,197,197); */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="di">
+        <form method="POST" action="abc.php" name="f" onsubmit="return check()">
+            <h1>Login</h1><br>
+            <input type="text" id="uname" placeholder="username"><br><br> <br>
+            <input type="password" id="pass" placeholder="password"><br><br>
+            <label>I agree to the Terms and Conditions*</label>
+            <input type="checkbox" id="box" value="1">
+            <input type="submit" value="Log In" id="root" disabled>
+            <!--Won't need value-->
+            <p>New user?<a href="#" style="margin-left:10px;">signup</a></p>
+        </form>
+    </div>
+</body>
+
+</html>
